@@ -3,7 +3,6 @@ import "./App.css";
 import Todo from "./app/components/Todo";
 
 function App() {
-  const handleActionChange = () => {};
   return (
     <div className="">
       <Todo />
