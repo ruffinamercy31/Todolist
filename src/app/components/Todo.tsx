@@ -262,7 +262,7 @@ const TodoApp: React.FC = () => {
             className="form-control"
           />
         </div>
-        <button onClick={handleAddTodo} className="btn btn-success mt-3">
+        <button onClick={handleAddTodo} className="btn btn-primary mt-3">
           {isEditing ? "Update Todo" : "Add Todo"}
         </button>
       </div>
